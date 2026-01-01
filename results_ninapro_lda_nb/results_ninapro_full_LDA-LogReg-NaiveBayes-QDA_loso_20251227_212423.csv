@@ -1,0 +1,35 @@
+# dataset=ninapro
+# features=full
+# window_size=400
+# overlap=0.5
+# split=loso
+# train_ratio=0.8
+# models=LDA,LogReg,NaiveBayes,QDA
+# pca=50.0
+# select_k=None
+# cache_key=ninapro_ws400_ov0.5_full_8214c76d
+# subjects=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# exercises=[1, 2, 3]
+# include_rest=False
+# created=2025-12-27T21:24:23.433441
+split,model,accuracy,f1,model_path
+fold_1,LDA,0.2150170648464164,0.2140085734472231,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold1_LDA_20251227_212206.joblib
+fold_1,SVM,0.17064846416382254,0.15207589192427323,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold1_QDA_20251227_212207.joblib
+fold_1,LogReg,0.2279863481228669,0.20506579497933292,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold1_LogReg_20251227_212239.joblib
+fold_1,NaiveBayes,0.18361774744027304,0.18024266303995978,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold1_NaiveBayes_20251227_212239.joblib
+fold_2,LDA,0.42657342657342656,0.4011173518300793,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold2_LDA_20251227_212239.joblib
+fold_2,SVM,0.2839160839160839,0.25489994793053394,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold2_QDA_20251227_212239.joblib
+fold_2,LogReg,0.44685314685314687,0.4172239548044497,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold2_LogReg_20251227_212303.joblib
+fold_2,NaiveBayes,0.32167832167832167,0.29945235911327805,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold2_NaiveBayes_20251227_212303.joblib
+fold_3,SVM,0.2480942480942481,0.23915659842938364,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold3_LDA_20251227_212303.joblib
+fold_3,QDA,0.20304920304920304,0.1815703885399652,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold3_QDA_20251227_212303.joblib
+fold_3,LogReg,0.24462924462924462,0.2300240557785318,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold3_LogReg_20251227_212328.joblib
+fold_3,NaiveBayes,0.21205821205821207,0.1913804374839129,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold3_NaiveBayes_20251227_212328.joblib
+fold_4,LDA,0.36545079146593257,0.36221701840821663,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold4_LDA_20251227_212328.joblib
+fold_4,SVM,0.3097040605643496,0.29261755355272395,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold4_QDA_20251227_212328.joblib
+fold_4,LogReg,0.39022711631108054,0.376914271628622,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold4_LogReg_20251227_212350.joblib
+fold_4,NaiveBayes,0.3331039229181005,0.32754818576121464,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold4_NaiveBayes_20251227_212350.joblib
+fold_5,LDA,0.4004106776180698,0.3849787213043036,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold5_LDA_20251227_212350.joblib
+fold_5,SVM,0.3052703627652293,0.28364177998422707,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold5_QDA_20251227_212350.joblib
+fold_5,LogReg,0.40930869267624914,0.3847876476390427,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold5_LogReg_20251227_212423.joblib
+fold_5,NaiveBayes,0.32306639288158795,0.30444690066121755,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_fold5_NaiveBayes_20251227_212423.joblib

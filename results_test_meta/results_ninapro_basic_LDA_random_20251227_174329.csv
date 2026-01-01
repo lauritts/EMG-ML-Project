@@ -1,0 +1,16 @@
+# dataset=ninapro
+# features=basic
+# window_size=40
+# overlap=0.5
+# split=random
+# train_ratio=0.7
+# models=LDA
+# pca=None
+# select_k=None
+# cache_key=ninapro_ws40_ov0.5_basic_cec25d98
+# subjects=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# exercises=[1, 2, 3]
+# include_rest=False
+# created=2025-12-27T17:43:29.164583
+split,model,accuracy,f1,model_path
+random,LDA,0.2860715324222158,0.2785766658058334,./results_test_meta/models/ninapro_basic_random_LDA_20251227_174329.joblib

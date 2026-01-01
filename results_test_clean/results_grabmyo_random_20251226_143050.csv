@@ -1,0 +1,5 @@
+split,model,accuracy,f1,model_path
+random,LDA,0.8464552098244557,0.8494931532362742,results_test_clean/models/grabmyo_random_LDA_20251226_142825.joblib
+random,LogReg,0.9057485120168763,0.9057505850382066,results_test_clean/models/grabmyo_random_LogReg_20251226_142831.joblib
+random,NaiveBayes,0.38777970315678445,0.37549405019437365,results_test_clean/models/grabmyo_random_NaiveBayes_20251226_142832.joblib
+random,LinearSVM,0.9058991938521811,0.9059440812702781,results_test_clean/models/grabmyo_random_LinearSVM_20251226_143050.joblib

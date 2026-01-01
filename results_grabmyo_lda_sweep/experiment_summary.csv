@@ -1,0 +1,13 @@
+experiment_id,name,dataset,model,features,window_samples,window_ms,overlap,step_ms,train_ratio,channels,pca,select_k,n_channels,n_features,n_classes,sampling_rate_hz,n_samples,n_train,n_test,accuracy,f1,status,timestamp
+1,basic_ws62ms_ov0,grabmyo,LDA,basic,128,62.5,0.0,62.5,0.7,all,,,28,168,16,2048,89600,62719,26881,0.5489,0.5491,success,2025-12-27T18:45:24.808749
+2,extended_ws62ms_ov0,grabmyo,LDA,extended,128,62.5,0.0,62.5,0.7,all,,,28,252,16,2048,89600,62719,26881,0.5982,0.599,success,2025-12-27T18:46:36.990171
+3,full_ws62ms_ov0,grabmyo,LDA,full,128,62.5,0.0,62.5,0.7,all,,,28,476,16,2048,89600,62719,26881,0.6099,0.6112,success,2025-12-27T18:48:19.851439
+4,basic_ws62ms_ov25,grabmyo,LDA,basic,128,62.5,0.25,46.9,0.7,all,,,28,168,16,2048,118720,83104,35616,0.5528,0.5531,success,2025-12-27T18:49:43.093959
+5,extended_ws62ms_ov25,grabmyo,LDA,extended,128,62.5,0.25,46.9,0.7,all,,,28,252,16,2048,118720,83104,35616,0.5987,0.5993,success,2025-12-27T18:51:11.401136
+6,full_ws62ms_ov25,grabmyo,LDA,full,128,62.5,0.25,46.9,0.7,all,,,28,476,16,2048,118720,83104,35616,0.611,0.6127,success,2025-12-27T18:53:28.064325
+7,basic_ws62ms_ov50,grabmyo,LDA,basic,128,62.5,0.5,31.2,0.7,all,,,28,168,16,2048,178080,124655,53425,0.5571,0.5579,success,2025-12-27T18:55:26.299783
+8,extended_ws62ms_ov50,grabmyo,LDA,extended,128,62.5,0.5,31.2,0.7,all,,,28,252,16,2048,178080,124655,53425,0.6045,0.6058,success,2025-12-27T18:57:34.307524
+9,full_ws62ms_ov50,grabmyo,LDA,full,128,62.5,0.5,31.2,0.7,all,,,28,476,16,2048,178080,124655,53425,0.6204,0.6223,success,2025-12-27T19:00:49.676849
+10,basic_ws62ms_ov75,grabmyo,LDA,basic,128,62.5,0.75,15.6,0.7,all,,,28,168,16,2048,355040,248527,106513,0.5593,0.5601,success,2025-12-27T19:04:41.763483
+11,extended_ws62ms_ov75,grabmyo,LDA,extended,128,62.5,0.75,15.6,0.7,all,,,28,252,16,2048,355040,248527,106513,0.6087,0.6098,success,2025-12-27T19:32:13.775637
+12,full_ws62ms_ov75,grabmyo,LDA,full,128,62.5,0.75,15.6,0.7,all,,,28,476,16,2048,355040,248527,106513,0.6254,0.6273,success,2025-12-27T19:39:02.713813

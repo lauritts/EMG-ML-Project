@@ -1,0 +1,22 @@
+# dataset=ninapro
+# features=full
+# window_size=800
+# overlap=0.95
+# split=random
+# train_ratio=0.8
+# models=LDA,LDA_eigen,NaiveBayes,NaiveBayes_less,NaiveBayes_smooth,QDA,QDA_reg
+# pca=None
+# select_k=None
+# cache_key=ninapro_ws800_ov0.95_full_f47d74c5
+# subjects=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# exercises=[1, 2, 3]
+# include_rest=False
+# created=2025-12-27T21:20:41.743741
+split,model,accuracy,f1,model_path
+random,LDA,0.8463476070528967,0.7947045421384319,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_random_LDA_20251227_212041.joblib
+random,LDA_eigen,0.8463476070528967,0.7947045421384319,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_random_LDA_eigen_20251227_212041.joblib
+random,QDA,nan,nan,
+random,QDA_reg,nan,nan,
+random,NaiveBayes,0.6889168765743073,0.6847155057683445,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_random_NaiveBayes_20251227_212041.joblib
+random,NaiveBayes_smooth,0.6889168765743073,0.6847155057683445,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_random_NaiveBayes_smooth_20251227_212041.joblib
+random,NaiveBayes_less,0.6889168765743073,0.6847155057683445,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_random_NaiveBayes_less_20251227_212041.joblib

@@ -1,0 +1,17 @@
+# dataset=ninapro
+# features=full
+# window_size=400
+# overlap=0.9
+# split=random
+# train_ratio=0.8
+# models=LDA,NaiveBayes
+# pca=None
+# select_k=150
+# cache_key=ninapro_ws400_ov0.9_full_65b4cee4
+# subjects=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# exercises=[1, 2, 3]
+# include_rest=False
+# created=2025-12-27T21:00:58.475941
+split,model,accuracy,f1,model_path
+random,LDA,0.6276613034292216,0.6250598182304438,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_random_LDA_20251227_210058.joblib
+random,NaiveBayes,0.39769218267511786,0.37938612444972225,/Users/laurits/Documents/Uni/ML/EMG_Project/results_ninapro_lda_nb/models/ninapro_full_random_NaiveBayes_20251227_210058.joblib

@@ -1,0 +1,7 @@
+# file=results_ninapro_full_LDA_random_20251227_125035.csv
+# features=full | window_size=80 | overlap=0.75 | train_ratio=0.7 | name=combo_ws80_ov0.75 | timestamp=2025-12-27T12:50:35.374221
+# added=2025-12-27T17:55:55.046126
+
+
+split,model,accuracy,f1,model_path
+random,LDA,0.3813887692970047,0.3783226364670004,./results_ninapro_experiments/models/ninapro_full_random_LDA_20251227_125035.joblib

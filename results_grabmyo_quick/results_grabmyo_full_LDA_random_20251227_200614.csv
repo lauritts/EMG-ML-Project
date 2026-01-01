@@ -1,0 +1,16 @@
+# dataset=grabmyo
+# features=full
+# window_size=2048
+# overlap=0.9
+# split=random
+# train_ratio=0.7
+# models=LDA
+# pca=None
+# select_k=None
+# cache_key=grabmyo_ws2048_ov0.9_full_99665f3f
+# sessions=[1]
+# participants=[1, 2, 3, 4, 5]
+# channels=all
+# created=2025-12-27T20:06:14.501949
+split,model,accuracy,f1,model_path
+random,LDA,0.9532588184061548,0.9533232606101697,./results_grabmyo_quick/models/grabmyo_full_random_LDA_20251227_200614.joblib

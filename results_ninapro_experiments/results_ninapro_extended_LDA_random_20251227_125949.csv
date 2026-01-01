@@ -1,0 +1,7 @@
+# file=results_ninapro_extended_LDA_random_20251227_125949.csv
+# features=extended | window_size=40 | overlap=0.75 | train_ratio=0.7 | name=extended_ws40 | timestamp=2025-12-27T12:59:49.874775
+# added=2025-12-27T17:55:55.045819
+
+
+split,model,accuracy,f1,model_path
+random,LDA,0.30375651461029457,0.29671543438726405,./results_ninapro_experiments/models/ninapro_extended_random_LDA_20251227_125949.joblib

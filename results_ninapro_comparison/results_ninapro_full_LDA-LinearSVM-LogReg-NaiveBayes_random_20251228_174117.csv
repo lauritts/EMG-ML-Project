@@ -1,0 +1,19 @@
+# dataset=ninapro
+# features=full
+# window_size=400
+# overlap=0.5
+# split=random
+# train_ratio=0.7
+# models=LDA,LinearSVM,LogReg,NaiveBayes
+# pca=None
+# select_k=None
+# cache_key=ninapro_ws400_ov0.5_full_8214c76d
+# subjects=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# exercises=[1, 2, 3]
+# include_rest=False
+# created=2025-12-28T17:41:17.475303
+split,model,accuracy,f1,model_path
+random,LDA,0.6079963235294118,0.6055224227995708,./results_ninapro_comparison/models/ninapro_full_random_LDA_20251228_173522.joblib
+random,LogReg,0.6677389705882353,0.6634211767704495,./results_ninapro_comparison/models/ninapro_full_random_LogReg_20251228_174109.joblib
+random,NaiveBayes,0.42003676470588236,0.40977535821871497,./results_ninapro_comparison/models/ninapro_full_random_NaiveBayes_20251228_174109.joblib
+random,LinearSVM,0.6810661764705882,0.6734586625235034,./results_ninapro_comparison/models/ninapro_full_random_LinearSVM_20251228_174117.joblib

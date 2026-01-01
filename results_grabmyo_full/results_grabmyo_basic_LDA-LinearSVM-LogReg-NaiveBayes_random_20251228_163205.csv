@@ -1,0 +1,19 @@
+# dataset=grabmyo
+# features=basic
+# window_size=1024
+# overlap=0.85
+# split=random
+# train_ratio=0.7
+# models=LDA,LinearSVM,LogReg,NaiveBayes
+# pca=None
+# select_k=None
+# cache_key=grabmyo_ws1024_ov0.85_basic_936cf207
+# sessions=[1, 2, 3]
+# participants=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+# channels=all
+# created=2025-12-28T16:32:05.391960
+split,model,accuracy,f1,model_path
+random,LDA,0.6709367282024516,0.6728361476231389,./results_grabmyo_full/models/grabmyo_basic_random_LDA_20251228_142626.joblib
+random,LogReg,0.7043218771629243,0.7034253198210545,./results_grabmyo_full/models/grabmyo_basic_random_LogReg_20251228_160732.joblib
+random,NaiveBayes,0.2625955468817961,0.2549963092776561,./results_grabmyo_full/models/grabmyo_basic_random_NaiveBayes_20251228_160736.joblib
+random,LinearSVM,0.6837544771349362,0.679628832825322,./results_grabmyo_full/models/grabmyo_basic_random_LinearSVM_20251228_163205.joblib

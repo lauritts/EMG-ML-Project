@@ -1,0 +1,10 @@
+# file=results_ninapro_full_LDA-LinearSVM-LogReg-NaiveBayes_random_20251227_144709.csv
+# features=full | window_size=400 | overlap=0.9 | train_ratio=0.8 | name=highov_full | timestamp=2025-12-27T13:16:30.691395
+# added=2025-12-27T17:55:55.048452
+
+
+split,model,accuracy,f1,model_path
+random,LDA,0.7518959913326111,0.7444616583588373,./results_ninapro_experiments/models/ninapro_full_random_LDA_20251227_142230.joblib
+random,LogReg,0.9223546406644998,0.9195761397500218,./results_ninapro_experiments/models/ninapro_full_random_LogReg_20251227_144643.joblib
+random,NaiveBayes,0.5036114120621162,0.4872525321262735,./results_ninapro_experiments/models/ninapro_full_random_NaiveBayes_20251227_144643.joblib
+random,LinearSVM,0.9028530155290718,0.8986312405090181,./results_ninapro_experiments/models/ninapro_full_random_LinearSVM_20251227_144709.joblib
