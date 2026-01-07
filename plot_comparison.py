@@ -10,7 +10,7 @@ import numpy as np
 # Data from experiments (ws=400)
 models = ['LDA', 'LogReg', 'NaiveBayes', 'LinearSVM']
 
-# Random 70/30 split results (from results_ninapro_full_LDA-LinearSVM-LogReg-NaiveBayes_random_20251228_183242.csv)
+# Random 70/30 split results (from ninapro_classical_results/results_ninapro_full_LDA-LinearSVM-LogReg-NaiveBayes_random_20251228_183242.csv)
 
 random_f1 = {
     'LDA': 0.7312,
@@ -19,7 +19,7 @@ random_f1 = {
     'LinearSVM': 0.9063,
 }
 
-# LOSO results (from results_ninapro_full_LDA-LinearSVM-LogReg-NaiveBayes_loso_20251227_212423.csv)
+# LOSO results (from rninapro_classical_results/esults_ninapro_full_LDA-LinearSVM-LogReg-NaiveBayes_loso_20251227_212423.csv)
 # Average across 5 folds, with PCA=50
 loso_f1 = {
     'LDA': np.mean([0.2140, 0.4011, 0.2392, 0.3622, 0.3850]),
